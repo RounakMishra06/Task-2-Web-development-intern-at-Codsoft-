@@ -1,0 +1,235 @@
+body {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color:white;
+
+}
+
+
+
+.calculator {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 10px;
+
+    background: #fff;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 50px blue;
+
+    border:3px solid black;
+
+}
+
+
+
+#display {
+
+    grid-column: span 4;
+
+    padding: 10px;
+
+    font-size: 2em;
+
+    text-align: right;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background-color:cadetblue;
+
+    color: white;
+
+}
+
+
+
+.calculator button {
+
+    padding: 30px;
+
+    font-size: 1.6em;
+
+    border: none;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    background-color:darkslategray;
+
+    transition: background 0.2s;
+
+    color:black;
+
+}
+
+
+
+.calculator button:hover {
+
+    background-color: #d0d0d0;
+
+}
+
+
+
+button[value="="] {
+
+    background-color:#ff3b30;
+
+    color: #fff;
+
+}
+
+
+
+button[value="="]:hover {
+
+    background-color: #ff3b30;
+
+}
+
+
+
+button[value="C"] {
+
+    background-color: #d0d0d0;
+
+    color: black;
+
+}
+
+
+
+button[value="C"]:hover {
+
+    background-color: #d0d0d0;
+
+}
+
+
+
+button[value="DEL"] {
+
+    background-color: #d0d0d0;
+
+    color: black;
+
+}
+
+
+
+button[value="DEL"]:hover {
+
+    background-color: #d0d0d0
+
+}
+
+
+
+button[value="%"] {
+
+    background-color: #d0d0d0;
+
+    color: black;
+
+}
+
+
+
+button[value="%"]:hover {
+
+    background-color: #d0d0d0
+
+}
+
+
+
+button[value="/"] {
+
+    background-color: #d0d0d0;
+
+    color: black;
+
+}
+
+
+
+button[value="/"]:hover {
+
+    background-color: #d0d0d0
+
+}
+
+
+
+button[value="*"] {
+
+    background-color: #d0d0d0;
+
+    color: black;
+
+}
+
+
+
+button[value="*"]:hover {
+
+    background-color: #d0d0d0
+
+}
+
+
+
+button[value="-"] {
+
+    background-color: #d0d0d0;
+
+    color: black;
+
+}
+
+
+
+button[value="-"]:hover {
+
+    background-color: #d0d0d0
+
+}
+
+
+
+button[value="+"] {
+
+    background-color: #d0d0d0;
+
+    color: black;
+
+}
+
+
+
+button[value="+"]:hover {
+
+    background-color: #d0d0d0
+
+  }
